@@ -174,9 +174,6 @@ namespace MinecraftQuery
         {
             String value = ReadString(stream);
             return Convert.ToInt32(value);
-
-            //int result = Convert.ToInt32(new String(Encoding.ASCII.GetChars(buff)));
-            //return BitConverter.ToInt32(buffer.ToArray(), 0);
         }
 
         private String ReadString(Stream stream)
